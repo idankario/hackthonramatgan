@@ -1,0 +1,42 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/image/ramat_gan.jpeg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#a1{
+  margin-left: 95px;
+}
+#a2{
+  margin-left: 130px;
+}
+.avatar{
+  margin-left: 33px;
+  width: 200px;
+  height: 300px;
+  
+}
+.avatar2{
+  margin-left: 35px;
+  width: 200px;
+  height: 300px;
+  
+}
+
+.our_div{
+  background-color: black;
+  opacity: 0.8;
+  width: 270px;
+  height: 200px;
+  
+}
+.our_div1{
+  background-color: black;
+  opacity: 0.8;
+  width: 345px;
+  height: 200px;
+  
+}

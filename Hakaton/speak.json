@@ -1,0 +1,62 @@
+[
+    {
+        "id": "0",
+        "speak": "hi good morning welcome to Ramat gan, whats your name"
+    },
+    {
+        "id": "1",
+        "speak": "Nice name ,How old are you"
+    },
+    {
+        "id": "2",
+        "speak": "where do you live "
+    },
+    {
+        "id": "3",
+        "speak": "is this your first time in ramat gan"
+    },
+    {
+        "id": "4",
+        "speak": "okay, nice to meet you. to win the game you have to visit all the places in ramat gan, each place you finish you get 20 points, to win you have to reach 100 points."
+    },
+    {
+        "id": "5",
+        "speak": "where would you like to visit"
+    },
+    {
+        "id": "6",
+        "speak": "the safari , national park , ramat gan stadium ,bar-ilan university or ayalon river"
+    },
+    {
+        "id": "7",
+        "speak": "the safari!nice choice"
+    },
+    {
+        "id": "8",
+        "speak": "welcome to the safari , tickets please"
+    },
+    {
+        "id": "9",
+        "speak": "Thank you,enjoy your stay"
+    },
+    {
+        "id": "10",
+        "speak": "you can see, lions,monkeys,snakes,elephants or sea animals.please choose one"
+    },
+    {
+        "id": "11",
+        "speak": "lions,great choice, watch this clip"
+    },
+    {
+        "id": "12",
+        "speak": "what can you tell me about lions"
+    },
+    {
+        "id": "13",
+        "speak": "what do you like about lions, can you describe them"
+    },
+    {
+        "id": "14",
+        "speak": "great! you got 20 points you have three areas to go and then you can go to the next great place in the city ramat gan"
+    }
+]

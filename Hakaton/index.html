@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Amy's Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body class="bg">
+    <div class="container ">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+        
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="starThree fa fa-star full"></i></li>
+        		<li><i class="starTwo fa fa-star full"></i></li>
+        		<li><i class=" starOne fa fa-star full"></i></li>
+        	</ul>
+        	<span class="moves">0</span> Moves
+          <span class="clock">0:00</span>
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+            <li id="choseCard" class="card">
+                <p class="Choice">Choice</p>
+            </li>
+            <li class="card">
+                <p class="Choice">בחירה</p>
+            </li>
+            <li id="choseCard" class="card">
+                <p class="Tickets">Tickets</p>
+            </li>
+            <li class="card">
+                <p class="Tickets">כרטיסים</p>
+            </li>
+            <li class="card">
+                <p class="Describe">Describe</p>
+            </li>
+            <li class="card">
+                <p class="Describe">לתאר</p>
+            </li>
+            <li class="card">
+                <p class="To Win">To Win</p>
+            </li>
+            <li class="card">
+                <p class="To Win">To Win</p>
+            </li>
+            <li class="card">
+                <p class="Points">Points</p>
+            </li>
+            <li class="card">
+                <p class="Points">Points</p>
+            </li>
+            <li class="card">
+                <p class="Area">Area</p>
+            </li>
+            <li class="card">
+                <p class="Area">Area</p>
+            </li>
+   
+        </ul>
+    </div>
+
+    <!-- Winning Pop-Up -->
+  <div id="winPop" class="popBkgrd hidden">
+
+    <div class="popBox">
+      <div class="popContent">
+
+        <p class="popText">You've won!</p>
+        <div class="winningStats">
+
+          <span class="popMoves">Moves:
+            <span class="movesPop">0</span>
+          </span>
+
+          <span class="popTime">Time:
+              <span class="popClock">0:00</span>
+          </span>
+
+          <span class="popStars">Stars:
+            <ul class="stars">
+              <li><i class="starThree fa fa-star full"></i></li>
+              <li><i class="starTwo fa fa-star full"></i></li>
+              <li><i class="starOne fa fa-star full"></i></li>
+            </ul>
+          </span>
+        </div>
+
+        <div>
+          <i class="popRestart fa fa-repeat"></i>
+          <i class="popReturn fa fa-times"></i>
+        </div>
+
+
+
+        <!-- Glitter effect from https://codepen.io/kucsatax/pen/vyWevX -->
+        <div id="starshine">
+          <div class="template shine"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+    <!-- Attaches jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="card.js"> </script>
+    <script src="index.js">
+    </script>
+</body>
+</html>
+
+
+  
